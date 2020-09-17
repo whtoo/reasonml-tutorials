@@ -6,3 +6,13 @@ let rec fib = n => {
 }
 
 Js.log(fib(15))
+
+let rec gcd = (m,n) => {
+    if(m == 0) {
+        n;
+    } else {
+        gcd(n mod m,m)
+    }
+}
+
+Js.log(gcd(99,363))
