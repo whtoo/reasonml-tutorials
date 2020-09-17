@@ -1,17 +1,25 @@
 {
   "name": "reasonml-tutorials",
   "version": "0.1.0",
-  "sources": {
+  "sources": [{
     "dir" : "src",
     "subdirs" : true
   },
+  {
+    "dir":"__tests__",
+    "type":"dev"
+  }
+],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
   },
-  "suffix": ".bs.js",
+  "suffix": ".js",
   "bs-dependencies": [
 
+  ],
+  "bs-dev-dependencies":[
+    "@glennsl/bs-jest"
   ],
   "warnings": {
     "error" : "+101"
