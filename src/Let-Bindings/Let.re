@@ -26,3 +26,4 @@ let message = {
 };
 /** `part1` and `part2` not accessible here! */
 // The last line of a block is implicitly returned.
+Js.log(message);

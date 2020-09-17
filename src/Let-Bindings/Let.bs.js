@@ -10,6 +10,8 @@ console.log(x$1);
 
 var message = "hello world";
 
+console.log(message);
+
 exports.x = x$1;
 exports.message = message;
 /*  Not a pure module */
